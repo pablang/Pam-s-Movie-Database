@@ -31,3 +31,37 @@
     transform: rotate(360deg);
   }
 }
+h2 {
+  margin: 10px auto;
+}
+
+p {
+  margin: 0 auto;
+}
+
+input, button {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 3px;
+  margin: 10px auto;
+}
+
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vmin;
+  margin: 10px auto;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+.movie-container img {
+  object-fit: contain;
+}
+
+.movie-container button {
+  /* width: 20vmin; */
+  margin: 10px auto;
+}
